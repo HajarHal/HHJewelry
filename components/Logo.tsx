@@ -23,7 +23,7 @@ export default function Logo({
       <span
         className={`mt-1 text-[0.55rem] uppercase tracking-luxe ${sub}`}
       >
-        Fine accessories · Morocco
+        Fine accessories 
       </span>
     </span>
   );
