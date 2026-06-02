@@ -41,8 +41,7 @@ export default function OrderSuccessPage({
 
       <p className="mt-6 font-body text-lg font-light leading-relaxed text-stone">
         We&apos;ve received your order and will call you shortly on the number you
-        provided to confirm the details. Payment is made on delivery — no action
-        needed for now.
+        provided to confirm the details. Payment is made on delivery.
       </p>
 
       <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
