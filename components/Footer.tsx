@@ -12,7 +12,7 @@ export default function Footer() {
             </h3>
             <p className="mt-3 max-w-xs font-body text-sm leading-relaxed text-stone">
               Luxury accessories for elegant women. Carefully selected, delivered
-              across Morocco, paid on delivery.
+              across Morocco.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export default function Footer() {
 
         <div className="mt-12 hairline" />
         <p className="mt-6 text-center font-body text-xs uppercase tracking-[0.16em] text-stone/70">
-          © {new Date().getFullYear()} HH Jewelry · Made in Morocco
+          © {new Date().getFullYear()} HH Jewelry 
         </p>
       </div>
     </footer>
