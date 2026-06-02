@@ -13,18 +13,14 @@ const VALUES = [
   },
   {
     title: "Delivery across Morocco",
-    body: "From Casablanca to Oujda — your order arrives wherever you are.",
-  },
-  {
-    title: "Payment on delivery",
-    body: "Order with confidence. You pay only when the piece is in your hands.",
+    body: "From Casablanca to Oujda your order arrives wherever you are.",
   },
 ];
 
 const FAQ = [
   {
     q: "How do I order?",
-    a: "Choose a piece, open its page, and fill in the order form with your name, phone, city and address. We'll call you to confirm before shipping — no online payment needed.",
+    a: "Choose a piece, open its page, and fill in the order form with your name, phone, city and address. We'll call you to confirm before shipping.",
   },
   {
     q: "When will I receive my order?",
@@ -32,7 +28,7 @@ const FAQ = [
   },
   {
     q: "Can I return a product?",
-    a: "Yes. If a piece isn't right for you, you can return it within 7 days in its original condition. Reach out and we'll arrange it.",
+    a: "Yes. You can inspect your order when it is delivered. If anything isn't as expected, just let us know and we'll help resolve it.",
   },
 ];
 
@@ -46,14 +42,13 @@ export default function HomePage() {
         <div className="pointer-events-none absolute -right-32 top-1/2 h-[520px] w-[520px] -translate-y-1/2 rounded-full bg-gold/15 blur-3xl" />
         <div className="mx-auto grid max-w-site items-center gap-12 px-6 py-20 md:grid-cols-2 md:px-10 md:py-28">
           <div className="flex flex-col">
-            <p className="eyebrow animate-fade">Maison d&apos;accessoires · Morocco</p>
+            <p className="eyebrow animate-fade">Maison d&apos;accessoires</p>
             <h1 className="mt-6 font-display text-5xl font-medium leading-[1.05] text-ink animate-rise sm:text-6xl md:text-7xl">
               H<span className="text-gold-deep">H</span>
               <span className="font-normal italic"> Jewelry</span>
             </h1>
             <p className="mt-6 max-w-md font-body text-lg font-light leading-relaxed text-stone animate-rise [animation-delay:120ms]">
-              Luxury accessories for elegant women. A small, considered collection —
-              delivered across Morocco, paid on delivery.
+              Luxury accessories for elegant women. A small, considered collection
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4 animate-rise [animation-delay:240ms]">
               <Link href="/products" className="btn-gold">
