@@ -15,12 +15,16 @@ const VALUES = [
     title: "Delivery across Morocco",
     body: "From Casablanca to Oujda your order arrives wherever you are.",
   },
+  {
+    title: "Payment on delivery",
+    body: "Order with confidence. You pay only when the piece is in your hands.",
+  },
 ];
 
 const FAQ = [
   {
     q: "How do I order?",
-    a: "Choose a piece, open its page, and fill in the order form with your name, phone, city and address. We'll call you to confirm before shipping.",
+    a: "Choose a piece, open its page, and fill in the order form with your name, phone, city and address. We'll call you to confirm before shipping — no online payment needed.",
   },
   {
     q: "When will I receive my order?",
@@ -28,7 +32,7 @@ const FAQ = [
   },
   {
     q: "Can I return a product?",
-    a: "Yes. You can inspect your order when it is delivered. If anything isn't as expected, just let us know and we'll help resolve it.",
+    a: "Yes. If a piece isn't right for you, you can return it within 7 days in its original condition. Reach out and we'll arrange it.",
   },
 ];
 
@@ -42,13 +46,15 @@ export default function HomePage() {
         <div className="pointer-events-none absolute -right-32 top-1/2 h-[520px] w-[520px] -translate-y-1/2 rounded-full bg-gold/15 blur-3xl" />
         <div className="mx-auto grid max-w-site items-center gap-12 px-6 py-20 md:grid-cols-2 md:px-10 md:py-28">
           <div className="flex flex-col">
-            <p className="eyebrow animate-fade">Maison d&apos;accessoires</p>
-            <h1 className="mt-6 font-display text-5xl font-medium leading-[1.05] text-ink animate-rise sm:text-6xl md:text-7xl">
-              H<span className="text-gold-deep">H</span>
-              <span className="font-normal italic"> Jewelry</span>
+            <p className="eyebrow animate-fade">Fine accessories · Morocco</p>
+            <h1 className="mt-6 font-display text-5xl font-medium leading-[1.08] text-ink animate-rise sm:text-6xl">
+              Luxury accessories
+              <br />
+              for <span className="italic text-gold-deep">elegant</span> women
             </h1>
             <p className="mt-6 max-w-md font-body text-lg font-light leading-relaxed text-stone animate-rise [animation-delay:120ms]">
-              Luxury accessories for elegant women. A small, considered collection
+              A small, considered collection — delivered across Morocco, paid on
+              delivery.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4 animate-rise [animation-delay:240ms]">
               <Link href="/products" className="btn-gold">
@@ -61,12 +67,12 @@ export default function HomePage() {
           </div>
 
           <div className="relative animate-fade [animation-delay:200ms]">
-            <div className="overflow-hidden rounded-[2rem] border border-gold/30 bg-cream shadow-[0_30px_80px_-40px_rgba(31,27,24,0.4)]">
+            <div className="flex items-center justify-center overflow-hidden rounded-[2rem] border border-gold/30 bg-gradient-to-br from-cream to-ivory p-10 shadow-[0_30px_80px_-40px_rgba(31,27,24,0.4)] sm:p-14">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/products/hero.svg"
-                alt="HH Jewelry signature pieces"
-                className="aspect-[4/5] w-full object-cover"
+                src="/logo.png"
+                alt="HH Jewelry"
+                className="aspect-square w-full max-w-sm object-contain"
               />
             </div>
           </div>
