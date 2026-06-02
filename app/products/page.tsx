@@ -14,8 +14,7 @@ export default function ProductsPage() {
           Every piece, curated
         </h1>
         <p className="mt-5 font-body leading-relaxed text-stone">
-          A small, edited selection of accessories — scarves, jewelry and bags
-          chosen for the woman who notices the details.
+         A curated collection of accessories, selected to elevate everyday style with timeless elegance and attention to detail.
         </p>
       </header>
 
